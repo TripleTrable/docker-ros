@@ -1,4 +1,4 @@
-FROM osrf/ros:foxy-desktop
+FROM ros:foxy
 
 MAINTAINER Lars Niesen
 
