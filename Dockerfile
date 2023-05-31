@@ -2,9 +2,7 @@ FROM ros:foxy
 
 MAINTAINER Lars Niesen
 
-RUN apt update
-RUN apt install -y iproute2
-RUN apt clean
+RUN apt-get update && apt-get install -y iproute2 && apt-get clean
 
 RUN useradd -ms /bin/bash foxy
 
