@@ -2,7 +2,7 @@ FROM ros:foxy
 
 MAINTAINER Lars Niesen
 
-RUN apt-get update && apt-get install -y iproute2 && apt-get clean
+RUN apt-get update && apt-get install -y iproute2 vim && apt-get clean
 
 RUN useradd -ms /bin/bash foxy
 
